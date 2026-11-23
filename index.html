@@ -1,0 +1,1432 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>啊啊啊不行了不要了 - 情绪短视频品牌官网,用真实影像记录都市生活的起伏瞬间</title>
+<meta name="description" content="啊啊啊不行了不要了官方网站，一家专注情绪表达与都市生活影像的原创视频品牌，汇集创作者精品内容、专题企划与真实社区故事，打造值得信赖的内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151515'/%3E%3Cpath d='M24 20l20 12-20 12z' fill='%23ffcf3f'/%3E%3Ccircle cx='20' cy='46' r='4' fill='%23e94f37'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ahe-bg:#111113;
+  --ahe-bg-2:#17171b;
+  --ahe-panel:#1d1d22;
+  --ahe-line:#2c2c33;
+  --ahe-text:#ececef;
+  --ahe-muted:#9b9ba6;
+  --ahe-dim:#6f6f7a;
+  --ahe-neon:#d4ff3f;
+  --ahe-hot:#ff5d5d;
+  --ahe-amber:#ffcf3f;
+  --ahe-radius:16px;
+  --ahe-head-h:112px;
+  --ahe-maxw:1180px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:var(--ahe-head-h);}
+body{
+  margin:0;
+  background:var(--ahe-bg);
+  color:var(--ahe-text);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(circle at 12% 0%,rgba(212,255,63,.06),transparent 42%),radial-gradient(circle at 88% 6%,rgba(255,93,93,.07),transparent 40%);
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,h4{margin:0;line-height:1.28;font-weight:800;letter-spacing:.01em;}
+p{margin:0 0 14px;}
+ul,ol{margin:0;padding:0;list-style:none;}
+
+.ahe-wrap{max-width:var(--ahe-maxw);margin:0 auto;padding:0 22px;}
+
+/* ---------- 顶部吸顶区 ---------- */
+.ahe-topbar{
+  position:sticky;top:0;z-index:70;
+  background:rgba(14,14,16,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--ahe-line);
+}
+.ahe-notice{
+  display:flex;align-items:center;gap:12px;
+  font-size:13px;color:#1a1a1a;
+  background:var(--ahe-neon);
+  padding:7px 22px;
+  font-weight:700;
+}
+.ahe-notice-tag{
+  flex:0 0 auto;font-size:11px;letter-spacing:.14em;
+  border:1.5px solid #1a1a1a;border-radius:20px;padding:1px 9px;
+}
+.ahe-notice-track{overflow:hidden;white-space:nowrap;flex:1;min-width:0;}
+.ahe-notice-track span{display:inline-block;padding-left:10px;}
+.ahe-notice-track em{font-style:normal;color:#4a4a0b;font-weight:600;}
+.ahe-notice-btn{
+  flex:0 0 auto;background:#1a1a1a;color:var(--ahe-neon);
+  border:0;border-radius:20px;padding:3px 13px;font-size:12px;font-weight:700;
+}
+.ahe-header{padding:10px 0;}
+.ahe-header-in{
+  max-width:var(--ahe-maxw);margin:0 auto;padding:0 22px;
+  display:flex;align-items:center;gap:20px;
+}
+.ahe-logo{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.ahe-logo-mark{
+  width:40px;height:40px;border-radius:11px;
+  background:linear-gradient(135deg,var(--ahe-neon),#7ce000);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 0 0 1px rgba(212,255,63,.35),0 6px 20px rgba(212,255,63,.16);
+}
+.ahe-logo-mark svg{width:20px;height:20px;}
+.ahe-logo-txt{display:flex;flex-direction:column;line-height:1.2;}
+.ahe-logo-txt b{font-size:17px;letter-spacing:.04em;}
+.ahe-logo-txt i{font-style:normal;font-size:10.5px;color:var(--ahe-dim);letter-spacing:.2em;}
+.ahe-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;}
+.ahe-nav a{
+  font-size:14px;color:var(--ahe-muted);padding:7px 12px;border-radius:9px;
+  transition:color .18s,background .18s;
+}
+.ahe-nav a:hover{color:var(--ahe-text);background:#22222a;}
+.ahe-search{
+  position:relative;display:flex;align-items:center;
+  background:#202027;border:1px solid var(--ahe-line);border-radius:22px;
+  padding:5px 6px 5px 14px;width:230px;flex:0 1 230px;
+}
+.ahe-search input{
+  flex:1;min-width:0;background:transparent;border:0;outline:none;color:var(--ahe-text);
+  font-size:13.5px;
+}
+.ahe-search input::placeholder{color:var(--ahe-dim);}
+.ahe-search-btn{
+  width:28px;height:28px;border-radius:50%;border:0;
+  background:var(--ahe-neon);color:#151515;display:flex;align-items:center;justify-content:center;
+}
+.ahe-search-btn svg{width:14px;height:14px;}
+.ahe-search-tip{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;
+  background:#232329;border:1px solid var(--ahe-line);border-radius:12px;
+  padding:8px;font-size:13px;color:var(--ahe-muted);display:none;z-index:80;
+  box-shadow:0 18px 40px rgba(0,0,0,.5);
+}
+.ahe-search-tip.on{display:block;}
+.ahe-search-tip b{color:var(--ahe-neon);}
+.ahe-burger{
+  display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--ahe-line);
+  background:#1c1c22;align-items:center;justify-content:center;flex-direction:column;gap:4px;
+}
+.ahe-burger i{display:block;width:17px;height:2px;background:var(--ahe-text);border-radius:2px;transition:.2s;}
+.ahe-burger.on i:nth-child(1){transform:translateY(6px) rotate(45deg);}
+.ahe-burger.on i:nth-child(2){opacity:0;}
+.ahe-burger.on i:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+/* ---------- 首屏 ---------- */
+.ahe-hero{padding:44px 0 8px;}
+.ahe-hero-grid{
+  display:grid;grid-template-columns:4.6fr 5.4fr;gap:44px;align-items:center;
+}
+.ahe-hero-kicker{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:12px;letter-spacing:.18em;color:var(--ahe-neon);
+  border:1px solid rgba(212,255,63,.35);border-radius:20px;padding:4px 13px;margin-bottom:20px;
+}
+.ahe-hero-kicker::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ahe-neon);box-shadow:0 0 10px var(--ahe-neon);}
+.ahe-h1{font-size:clamp(34px,5.2vw,62px);line-height:1.1;letter-spacing:-.015em;}
+.ahe-h1 span{color:var(--ahe-neon);}
+.ahe-hero-sub{
+  margin:18px 0 16px;font-size:16.5px;color:#c9c9d2;max-width:52ch;
+}
+.ahe-hero-sub b{color:#fff;font-weight:700;}
+.ahe-hero-intro{font-size:14.5px;color:var(--ahe-muted);max-width:56ch;}
+.ahe-hero-intro strong{color:var(--ahe-amber);font-weight:700;}
+.ahe-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0 26px;
+}
+.ahe-stat{
+  background:linear-gradient(160deg,#1f1f26,#191920);
+  border:1px solid var(--ahe-line);border-radius:14px;padding:14px 15px;
+  min-width:0;
+}
+.ahe-stat b{display:block;font-size:24px;letter-spacing:-.02em;color:#fff;line-height:1.2;}
+.ahe-stat b i{font-style:normal;font-size:13px;color:var(--ahe-neon);margin-left:2px;font-weight:700;}
+.ahe-stat span{font-size:12px;color:var(--ahe-dim);display:block;margin-top:3px;}
+.ahe-hero-actions{display:flex;flex-wrap:wrap;gap:12px;}
+.ahe-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:12px;
+  font-size:14.5px;font-weight:700;padding:12px 22px;border:1px solid transparent;
+  transition:transform .16s,box-shadow .18s,background .18s,border-color .18s;
+}
+.ahe-btn:active{transform:translateY(1px);}
+.ahe-btn-primary{background:var(--ahe-neon);color:#141414;box-shadow:0 10px 26px rgba(212,255,63,.18);}
+.ahe-btn-primary:hover{box-shadow:0 14px 34px rgba(212,255,63,.3);}
+.ahe-btn-ghost{background:#202027;color:var(--ahe-text);border-color:var(--ahe-line);}
+.ahe-btn-ghost:hover{border-color:#4a4a58;background:#26262f;}
+.ahe-btn-hot{background:rgba(255,93,93,.12);color:#ff8585;border-color:rgba(255,93,93,.35);}
+.ahe-btn-hot:hover{background:rgba(255,93,93,.2);}
+
+.ahe-hero-visual{position:relative;}
+.ahe-hero-figure{
+  border-radius:22px;overflow:hidden;border:1px solid #34343d;
+  box-shadow:0 30px 70px rgba(0,0,0,.55);
+  position:relative;background:#0c0c0f;
+}
+.ahe-hero-figure img{width:100%;aspect-ratio:16/11.4;object-fit:cover;}
+.ahe-hero-badge{
+  position:absolute;left:16px;top:16px;
+  display:flex;align-items:center;gap:7px;
+  background:rgba(10,10,12,.78);backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,.14);
+  color:#fff;font-size:12px;font-weight:700;border-radius:20px;padding:5px 12px;
+}
+.ahe-hero-badge em{width:6px;height:6px;border-radius:50%;background:var(--ahe-hot);font-style:normal;animation:ahe-blink 1.3s infinite;}
+@keyframes ahe-blink{0%,100%{opacity:1;}50%{opacity:.25;}}
+.ahe-hero-caption{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  background:#191920;border:1px solid var(--ahe-line);border-top:0;
+  margin:-5px 0 0;border-radius:0 0 16px 16px;padding:12px 16px;font-size:13px;color:var(--ahe-muted);
+}
+.ahe-hero-caption b{color:#fff;display:block;font-size:14px;margin-bottom:1px;}
+.ahe-hero-caption .ahe-mini-play{
+  flex:0 0 auto;background:var(--ahe-neon);color:#141414;border:0;border-radius:20px;
+  font-size:12px;font-weight:800;padding:6px 14px;
+}
+.ahe-float-card{
+  position:absolute;right:-6px;bottom:78px;
+  background:#1f1f27;border:1px solid #34343f;border-radius:13px;
+  padding:10px 13px;font-size:12px;box-shadow:0 16px 32px rgba(0,0,0,.5);
+  display:flex;align-items:center;gap:9px;
+}
+.ahe-float-card b{display:block;font-size:15px;color:var(--ahe-neon);line-height:1.2;}
+.ahe-float-card span{color:var(--ahe-dim);font-size:11px;}
+
+/* ---------- 通用区块 ---------- */
+.ahe-section{padding:56px 0;}
+.ahe-section-head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:20px;
+  margin-bottom:26px;flex-wrap:wrap;
+}
+.ahe-h2{font-size:clamp(23px,2.8vw,31px);letter-spacing:-.01em;}
+.ahe-h2 small{display:block;font-size:12px;letter-spacing:.22em;color:var(--ahe-neon);font-weight:700;margin-bottom:8px;}
+.ahe-section-desc{color:var(--ahe-muted);font-size:14px;max-width:60ch;margin:8px 0 0;}
+.ahe-h3{font-size:17.5px;margin-bottom:8px;}
+.ahe-eyebrow{font-size:12px;letter-spacing:.16em;color:var(--ahe-dim);font-weight:700;}
+.ahe-link-more{font-size:13.5px;color:var(--ahe-neon);font-weight:700;white-space:nowrap;}
+.ahe-link-more:hover{text-decoration:underline;}
+
+.ahe-tag{
+  display:inline-block;font-size:11.5px;color:#cfcfd8;background:#26262f;
+  border:1px solid #35353f;border-radius:20px;padding:2px 10px;margin:0 6px 6px 0;
+}
+.ahe-tag-neon{color:#151515;background:var(--ahe-neon);border-color:var(--ahe-neon);font-weight:800;}
+.ahe-tag-hot{color:#ffb3b3;background:rgba(255,93,93,.13);border-color:rgba(255,93,93,.32);}
+
+/* ---------- 焦点模块 ---------- */
+.ahe-focus-grid{display:grid;grid-template-columns:minmax(0,1.32fr) minmax(0,1fr);gap:24px;}
+.ahe-focus-main{
+  background:var(--ahe-panel);border:1px solid var(--ahe-line);border-radius:var(--ahe-radius);
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:border-color .2s,transform .2s;
+}
+.ahe-focus-main:hover{border-color:#4a4a58;transform:translateY(-2px);}
+.ahe-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.ahe-focus-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1;}
+.ahe-focus-body p{color:var(--ahe-muted);font-size:14px;}
+.ahe-meta-row{
+  display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;
+  font-size:12.5px;color:var(--ahe-dim);margin-top:auto;padding-top:12px;
+}
+.ahe-focus-side{display:flex;flex-direction:column;gap:14px;}
+.ahe-side-item{
+  display:flex;gap:14px;background:#191920;border:1px solid var(--ahe-line);
+  border-radius:14px;padding:14px;transition:background .18s,border-color .18s;
+}
+.ahe-side-item:hover{background:#1f1f27;border-color:#43434f;}
+.ahe-side-item .ahe-side-idx{
+  flex:0 0 auto;width:26px;font-size:19px;font-weight:900;color:#3b3b46;line-height:1.3;
+}
+.ahe-side-item h4{font-size:14.5px;margin-bottom:5px;}
+.ahe-side-item p{font-size:12.8px;color:var(--ahe-muted);margin:0 0 6px;}
+.ahe-side-thumb{flex:0 0 92px;border-radius:10px;overflow:hidden;height:62px;}
+.ahe-side-thumb img{width:100%;height:100%;object-fit:cover;}
+
+/* ---------- 视频列表 ---------- */
+.ahe-video-list{display:flex;flex-direction:column;gap:2px;}
+.ahe-video-row{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;
+  padding:16px 4px;border-bottom:1px solid #24242c;transition:background .18s;
+}
+.ahe-video-row:hover{background:#17171d;}
+.ahe-video-row-main{min-width:0;}
+.ahe-video-row h4{font-size:15.5px;margin-bottom:5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.ahe-video-row p{font-size:13.4px;color:var(--ahe-muted);margin:0 0 8px;max-width:78ch;}
+.ahe-video-row-dat{font-size:12px;color:var(--ahe-dim);display:flex;flex-wrap:wrap;gap:4px 14px;}
+.ahe-video-row-act{display:flex;gap:8px;align-items:center;flex:0 0 auto;}
+.ahe-icon-btn{
+  display:inline-flex;align-items:center;gap:6px;
+  background:#22222a;border:1px solid #33333d;color:#cfcfd8;
+  border-radius:20px;padding:6px 12px;font-size:12.5px;font-weight:600;
+  transition:background .16s,color .16s,border-color .16s,transform .12s;
+}
+.ahe-icon-btn:hover{background:#2b2b35;border-color:#4a4a58;}
+.ahe-icon-btn:active{transform:scale(.96);}
+.ahe-icon-btn.liked{color:#151515;background:var(--ahe-neon);border-color:var(--ahe-neon);}
+.ahe-icon-btn.saved{color:#ffb3b3;background:rgba(255,93,93,.15);border-color:rgba(255,93,93,.4);}
+.ahe-icon-btn svg{width:13px;height:13px;}
+.ahe-badge-live{font-size:10.5px;font-weight:800;color:#151515;background:var(--ahe-hot);border-radius:5px;padding:1px 6px;letter-spacing:.06em;}
+.ahe-badge-new{font-size:10.5px;font-weight:800;color:#151515;background:var(--ahe-neon);border-radius:5px;padding:1px 6px;}
+
+/* ---------- 专题 ---------- */
+.ahe-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+.ahe-topic-card{
+  background:linear-gradient(170deg,#1d1d24,#17171c);
+  border:1px solid var(--ahe-line);border-radius:var(--ahe-radius);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .2s,border-color .2s;
+}
+.ahe-topic-card:hover{transform:translateY(-3px);border-color:#4e4e5c;}
+.ahe-topic-card img{width:100%;aspect-ratio:16/8.4;object-fit:cover;}
+.ahe-topic-body{padding:18px 20px 20px;}
+.ahe-topic-status{
+  display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;
+  color:var(--ahe-neon);margin-bottom:9px;
+}
+.ahe-topic-status i{width:6px;height:6px;border-radius:50%;background:var(--ahe-neon);font-style:normal;}
+.ahe-topic-list{margin-top:12px;display:flex;flex-direction:column;gap:8px;}
+.ahe-topic-list li{
+  font-size:13.4px;color:#c3c3cd;display:flex;gap:8px;align-items:flex-start;
+}
+.ahe-topic-list li::before{content:"›";color:var(--ahe-neon);font-weight:900;flex:0 0 auto;}
+
+/* ---------- 作者 ---------- */
+.ahe-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.ahe-author-card{
+  display:flex;gap:16px;background:#191920;border:1px solid var(--ahe-line);
+  border-radius:var(--ahe-radius);padding:18px;transition:background .18s,border-color .18s;
+}
+.ahe-author-card:hover{background:#1f1f27;border-color:#45454f;}
+.ahe-avatar{
+  flex:0 0 58px;width:58px;height:58px;border-radius:50%;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:900;color:#151515;
+  box-shadow:0 0 0 2px #2b2b34;
+}
+.ahe-avatar svg{width:100%;height:100%;}
+.ahe-author-body{min-width:0;}
+.ahe-author-name{font-size:15.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:3px;}
+.ahe-author-name em{
+  font-style:normal;font-size:10.5px;font-weight:800;color:#151515;background:var(--ahe-amber);
+  border-radius:5px;padding:1px 6px;
+}
+.ahe-author-fields{font-size:12.5px;color:var(--ahe-neon);margin-bottom:6px;}
+.ahe-author-numbers{font-size:12px;color:var(--ahe-dim);display:flex;gap:14px;margin-bottom:7px;flex-wrap:wrap;}
+.ahe-author-desc{font-size:13px;color:var(--ahe-muted);margin:0;}
+
+/* ---------- 评论 ---------- */
+.ahe-comment-wrap{
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:22px;align-items:start;
+}
+.ahe-comment-score{
+  background:linear-gradient(165deg,#1f1f27,#17171c);
+  border:1px solid var(--ahe-line);border-radius:var(--ahe-radius);padding:22px;
+  position:sticky;top:calc(var(--ahe-head-h) + 14px);
+}
+.ahe-score-big{font-size:52px;font-weight:900;letter-spacing:-.03em;line-height:1;color:var(--ahe-neon);}
+.ahe-score-big small{font-size:16px;color:var(--ahe-dim);font-weight:700;}
+.ahe-score-stars{color:var(--ahe-amber);letter-spacing:.18em;font-size:17px;margin:6px 0 4px;}
+.ahe-score-bars{margin-top:16px;display:flex;flex-direction:column;gap:9px;}
+.ahe-score-bar{font-size:12.5px;color:var(--ahe-muted);display:grid;grid-template-columns:38px 1fr 34px;gap:9px;align-items:center;}
+.ahe-score-bar i{
+  display:block;height:6px;border-radius:4px;background:#2e2e38;overflow:hidden;position:relative;
+}
+.ahe-score-bar i::after{
+  content:"";position:absolute;inset:0;width:var(--p,80%);background:linear-gradient(90deg,var(--ahe-neon),#8fd400);border-radius:4px;
+}
+.ahe-comment-list{display:flex;flex-direction:column;gap:13px;}
+.ahe-comment{
+  background:#18181e;border:1px solid var(--ahe-line);border-radius:14px;padding:15px 17px;
+}
+.ahe-comment-top{display:flex;align-items:center;gap:10px;margin-bottom:7px;flex-wrap:wrap;}
+.ahe-comment-ava{
+  width:28px;height:28px;border-radius:50%;flex:0 0 28px;
+  display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;color:#151515;
+}
+.ahe-comment-name{font-size:13.5px;font-weight:700;}
+.ahe-comment-time{font-size:11.5px;color:var(--ahe-dim);margin-left:auto;}
+.ahe-comment-text{font-size:13.6px;color:#c6c6d0;margin:0;}
+.ahe-comment-text q{color:var(--ahe-neon);font-style:normal;}
+
+/* ---------- 解析长文 ---------- */
+.ahe-essay{
+  background:linear-gradient(180deg,#18181e,#141419);
+  border:1px solid var(--ahe-line);border-radius:22px;padding:34px 34px 24px;
+}
+.ahe-essay p{color:#bfbfc9;font-size:14.6px;}
+.ahe-essay .ahe-h3{color:#fff;margin-top:26px;}
+.ahe-essay .ahe-h3:first-child{margin-top:0;}
+.ahe-essay-lead{
+  font-size:15.5px !important;color:#dcdce4 !important;
+  border-left:3px solid var(--ahe-neon);padding-left:16px;margin-bottom:22px;
+}
+.ahe-essay-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 26px;margin:14px 0 18px;}
+.ahe-essay-grid div{font-size:13.6px;color:#b6b6c1;padding-left:16px;position:relative;}
+.ahe-essay-grid div::before{content:"◆";color:var(--ahe-neon);font-size:9px;position:absolute;left:0;top:5px;}
+
+/* ---------- 动态 / 合作 / FAQ ---------- */
+.ahe-split{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:22px;align-items:start;}
+.ahe-news{display:flex;flex-direction:column;gap:2px;}
+.ahe-news-item{
+  display:grid;grid-template-columns:78px minmax(0,1fr);gap:14px;
+  padding:13px 4px;border-bottom:1px dashed #2a2a33;font-size:13.6px;color:#c2c2cc;
+}
+.ahe-news-item time{color:var(--ahe-neon);font-size:12.5px;font-weight:700;}
+.ahe-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+.ahe-partner{
+  background:#1a1a20;border:1px solid var(--ahe-line);border-radius:11px;
+  padding:13px 14px;font-size:13px;font-weight:700;color:#cdcdd7;
+  display:flex;align-items:center;gap:9px;
+}
+.ahe-partner em{
+  width:22px;height:22px;border-radius:6px;flex:0 0 22px;
+  display:flex;align-items:center;justify-content:center;font-style:normal;font-size:11px;
+  font-weight:900;color:#151515;
+}
+.ahe-faq{display:flex;flex-direction:column;gap:10px;}
+.ahe-faq details{
+  background:#18181e;border:1px solid var(--ahe-line);border-radius:13px;
+  padding:0 17px;transition:border-color .18s,background .18s;
+}
+.ahe-faq details[open]{border-color:rgba(212,255,63,.4);background:#1c1c23;}
+.ahe-faq summary{
+  list-style:none;cursor:pointer;padding:15px 0;font-size:14.5px;font-weight:700;
+  display:flex;align-items:center;gap:10px;
+}
+.ahe-faq summary::-webkit-details-marker{display:none;}
+.ahe-faq summary::after{
+  content:"+";margin-left:auto;color:var(--ahe-neon);font-size:19px;font-weight:400;line-height:1;
+  transition:transform .2s;
+}
+.ahe-faq details[open] summary::after{transform:rotate(45deg);}
+.ahe-faq details p{font-size:13.6px;color:var(--ahe-muted);margin:0 0 15px;padding-left:0;}
+
+/* ---------- 投稿条 ---------- */
+.ahe-cta{
+  background:linear-gradient(120deg,rgba(212,255,63,.14),rgba(255,93,93,.1));
+  border:1px solid rgba(212,255,63,.28);border-radius:22px;padding:32px;
+  display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
+}
+.ahe-cta h3{font-size:22px;margin-bottom:6px;}
+.ahe-cta p{color:#b9b9c4;font-size:14px;margin:0;max-width:64ch;}
+
+/* ---------- 页脚 ---------- */
+.ahe-footer{
+  margin-top:56px;background:#0d0d10;border-top:1px solid var(--ahe-line);
+  padding:44px 0 30px;
+}
+.ahe-footer-grid{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:30px;}
+.ahe-footer-brand b{font-size:17px;display:block;margin-bottom:8px;}
+.ahe-footer-brand p{font-size:13px;color:var(--ahe-dim);max-width:36ch;}
+.ahe-footer h4{font-size:13px;letter-spacing:.1em;color:#fff;margin-bottom:12px;}
+.ahe-footer li{font-size:13px;color:var(--ahe-dim);margin-bottom:8px;}
+.ahe-footer li a:hover{color:var(--ahe-neon);}
+.ahe-footer-bottom{
+  margin-top:30px;padding-top:18px;border-top:1px solid #212128;
+  font-size:12.3px;color:#5f5f6a;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between;
+}
+
+/* ---------- 弹窗 / Toast ---------- */
+.ahe-modal{
+  position:fixed;inset:0;z-index:120;display:none;align-items:center;justify-content:center;
+  background:rgba(6,6,8,.74);backdrop-filter:blur(4px);padding:22px;
+}
+.ahe-modal.on{display:flex;}
+.ahe-modal-box{
+  background:#1b1b22;border:1px solid #33333e;border-radius:18px;
+  max-width:460px;width:100%;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.6);
+  max-height:86vh;overflow:auto;
+}
+.ahe-modal-box h3{font-size:18px;margin-bottom:4px;}
+.ahe-modal-box .ahe-modal-sub{font-size:13px;color:var(--ahe-dim);margin-bottom:16px;}
+.ahe-field{margin-bottom:13px;}
+.ahe-field label{display:block;font-size:12.5px;color:var(--ahe-muted);margin-bottom:5px;font-weight:600;}
+.ahe-field input,.ahe-field textarea,.ahe-field select{
+  width:100%;background:#24242d;border:1px solid #35353f;border-radius:10px;
+  color:var(--ahe-text);font-size:14px;padding:10px 12px;outline:none;font-family:inherit;
+}
+.ahe-field textarea{min-height:88px;resize:vertical;}
+.ahe-field input:focus,.ahe-field textarea:focus{border-color:var(--ahe-neon);}
+.ahe-modal-actions{display:flex;gap:10px;margin-top:6px;}
+.ahe-modal-actions .ahe-btn{flex:1;justify-content:center;padding:11px 14px;font-size:14px;}
+.ahe-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:var(--ahe-neon);color:#151515;font-size:13.5px;font-weight:800;
+  border-radius:24px;padding:10px 22px;z-index:200;opacity:0;pointer-events:none;
+  transition:opacity .22s,transform .22s;box-shadow:0 12px 32px rgba(0,0,0,.4);
+}
+.ahe-toast.on{opacity:1;transform:translate(-50%,0);}
+.ahe-totop{
+  position:fixed;right:22px;bottom:26px;z-index:90;
+  width:44px;height:44px;border-radius:12px;border:1px solid #3a3a46;
+  background:#1e1e26;color:var(--ahe-neon);display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;
+}
+.ahe-totop.on{opacity:1;pointer-events:auto;}
+.ahe-totop:hover{transform:translateY(-3px);}
+.ahe-totop svg{width:18px;height:18px;}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1020px){
+  .ahe-hero-grid{grid-template-columns:1fr;gap:30px;}
+  .ahe-focus-grid{grid-template-columns:1fr;}
+  .ahe-comment-wrap{grid-template-columns:1fr;}
+  .ahe-comment-score{position:static;}
+  .ahe-split{grid-template-columns:1fr;}
+  .ahe-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ahe-search{display:none;}
+  .ahe-burger{display:flex;}
+  .ahe-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:#131318;border-bottom:1px solid var(--ahe-line);
+    flex-direction:column;padding:10px 18px 16px;gap:2px;
+  }
+  .ahe-nav.on{display:flex;}
+  .ahe-header{position:relative;}
+  .ahe-nav a{padding:11px 8px;font-size:15px;}
+}
+@media (max-width:720px){
+  :root{--ahe-head-h:104px;}
+  .ahe-hero{padding-top:28px;}
+  .ahe-topic-grid,.ahe-author-grid,.ahe-essay-grid,.ahe-partners{grid-template-columns:1fr;}
+  .ahe-video-row{grid-template-columns:1fr;gap:10px;}
+  .ahe-video-row-act{justify-content:flex-start;flex-wrap:wrap;}
+  .ahe-hero-caption{flex-direction:column;align-items:flex-start;gap:8px;}
+  .ahe-float-card{display:none;}
+  .ahe-author-card{flex-direction:column;}
+  .ahe-essay{padding:24px 20px 16px;}
+  .ahe-stats{grid-template-columns:1fr;}
+  .ahe-cta{padding:24px 20px;}
+  .ahe-footer-grid{grid-template-columns:1fr;}
+  .ahe-notice{font-size:12px;padding:6px 16px;}
+  .ahe-hero-actions .ahe-btn{flex:1 1 auto;justify-content:center;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="ahe-topbar" id="aheTop">
+  <div class="ahe-notice">
+    <span class="ahe-notice-tag">更新</span>
+    <div class="ahe-notice-track">
+      <span>「啊啊啊不行了不要了」冬季情绪短片企划 <em>《撑到最后一秒》</em> 正式上线，首发 6 支原创短片同步开放观看 ｜ 社区投稿通道已开启，本期主题「下班之后的十分钟」截止 12 月 8 日 ｜ 品牌官方发布 2026 年度内容生态白皮书，创作者扶持计划新增 30 个名额</span>
+    </div>
+    <button class="ahe-notice-btn" type="button" data-ahe-open="aheJoinModal">立即投稿</button>
+  </div>
+  <header class="ahe-header">
+    <div class="ahe-header-in">
+      <a class="ahe-logo" href="#aheHero">
+        <span class="ahe-logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 5l12 7-12 7z" fill="#151515"/></svg>
+        </span>
+        <span class="ahe-logo-txt">
+          <b>啊啊啊不行了不要了</b>
+          <i>OFFICIAL VIDEO</i>
+        </span>
+      </a>
+      <nav class="ahe-nav" id="aheNav" aria-label="主导航">
+        <a href="#aheFocus">焦点内容</a>
+        <a href="#aheVideos">视频精选</a>
+        <a href="#aheTopics">专题企划</a>
+        <a href="#aheAuthors">创作者</a>
+        <a href="#aheReviews">社区口碑</a>
+        <a href="#aheEssay">品牌解析</a>
+        <a href="#aheFaq">帮助</a>
+      </nav>
+      <div class="ahe-search" id="aheSearchBox">
+        <input type="search" id="aheSearchInput" placeholder="搜索短片、创作者、专题" aria-label="站内搜索">
+        <button class="ahe-search-btn" type="button" id="aheSearchBtn" aria-label="搜索">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#151515" stroke-width="2.6" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+        </button>
+        <div class="ahe-search-tip" id="aheSearchTip"></div>
+      </div>
+      <button class="ahe-burger" type="button" id="aheBurger" aria-label="展开导航" aria-expanded="false">
+        <i></i><i></i><i></i>
+      </button>
+    </div>
+  </header>
+</div>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="ahe-hero" id="aheHero">
+    <div class="ahe-wrap">
+      <div class="ahe-hero-grid">
+        <div>
+          <span class="ahe-hero-kicker">官方网站 · 原创情绪影像品牌</span>
+          <h1 class="ahe-h1">啊啊啊不行了<br><span>不要了</span></h1>
+          <p class="ahe-hero-sub">一家把「情绪临界点」拍成品牌语言的视频企业，用<b>真实、温暖、有力量</b>的短片，记录每个普通人在崩溃边缘重新站起来的瞬间。</p>
+          <p class="ahe-hero-intro">作为深耕都市情绪题材的垂直领域内容平台，我们持续运营一支由创作者、导演与社区用户共同组成的原创团队，把生活里说不出口的那句「啊啊啊不行了不要了」，变成可以被看见、被理解的精品内容。</p>
+
+          <div class="ahe-stats">
+            <div class="ahe-stat"><b data-ahe-count="4286">0</b><span>原创短片累计上线</span></div>
+            <div class="ahe-stat"><b data-ahe-count="1960">0</b><i>万</i><span>社区月观看人次</span></div>
+            <div class="ahe-stat"><b data-ahe-count="312">0</b><span>签约与入驻创作者</span></div>
+          </div>
+
+          <div class="ahe-hero-actions">
+            <a class="ahe-btn ahe-btn-primary" href="#aheVideos">观看视频精选</a>
+            <a class="ahe-btn ahe-btn-ghost" href="#aheAuthors">认识创作者</a>
+            <button class="ahe-btn ahe-btn-hot" type="button" data-ahe-open="aheJoinModal">我要投稿</button>
+          </div>
+        </div>
+
+        <div class="ahe-hero-visual">
+          <div class="ahe-hero-figure">
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 570'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23131518'/%3E%3Cstop offset='0.55' stop-color='%2322262e'/%3E%3Cstop offset='1' stop-color='%23151a1f'/%3E%3C/linearGradient%3E%3ClinearGradient id='glow' x1='0' y1='0' x2='0.4' y2='1'%3E%3Cstop offset='0' stop-color='%23d4ff3f' stop-opacity='0.85'/%3E%3Cstop offset='1' stop-color='%23d4ff3f' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='570' fill='url(%23bg)'/%3E%3Ccircle cx='610' cy='150' r='120' fill='url(%23glow)' opacity='0.5'/%3E%3Ccircle cx='610' cy='150' r='46' fill='%23d4ff3f' opacity='0.9'/%3E%3Cpath d='M0 430 Q160 340 320 412 T800 380 V570 H0 Z' fill='%230e1114'/%3E%3Cpath d='M0 470 Q200 400 400 462 T800 440 V570 H0 Z' fill='%230a0c0f'/%3E%3Cg opacity='0.92'%3E%3Crect x='96' y='300' width='132' height='150' rx='10' fill='%23242b32'/%3E%3Crect x='112' y='284' width='100' height='16' rx='6' fill='%233a444d'/%3E%3Crect x='126' y='330' width='72' height='8' rx='4' fill='%23d4ff3f' opacity='0.6'/%3E%3Crect x='126' y='350' width='50' height='8' rx='4' fill='%23525c66'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='360' cy='368' r='34' fill='%23ff5d5d'/%3E%3Crect x='330' y='402' width='60' height='110' rx='26' fill='%23ff8f8f' opacity='0.85'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='470' cy='338' r='27' fill='%23ffcf3f'/%3E%3Crect x='446' y='365' width='48' height='128' rx='22' fill='%23ffe08a' opacity='0.85'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='0.14'%3E%3Ccircle cx='210' cy='120' r='3'/%3E%3Ccircle cx='300' cy='86' r='2'/%3E%3Ccircle cx='520' cy='96' r='2.6'/%3E%3Ccircle cx='700' cy='250' r='2'/%3E%3Ccircle cx='150' cy='210' r='2'/%3E%3C/g%3E%3Cg%3E%3Crect x='560' y='330' width='180' height='44' rx='22' fill='%23ffffff' opacity='0.1'/%3E%3Ccircle cx='586' cy='352' r='12' fill='%23d4ff3f'/%3E%3Cpath d='M582 346l10 6-10 6z' fill='%23151515'/%3E%3Crect x='610' y='344' width='96' height='7' rx='3.5' fill='%23ffffff' opacity='0.45'/%3E%3Crect x='610' y='357' width='60' height='6' rx='3' fill='%23ffffff' opacity='0.22'/%3E%3C/g%3E%3C/svg%3E" alt="啊啊啊不行了不要了品牌情绪短片主视觉，夜色城市剪影与霓虹光球构成临界时刻画面" width="800" height="570">
+            <span class="ahe-hero-badge"><em></em>正在热播 · 临界时刻 Vol.14</span>
+          </div>
+          <div class="ahe-hero-caption">
+            <div>
+              <b>《撑到最后一秒》官方预告</b>
+              正片 8 分 42 秒 · 4K 高清 · 品牌原创发布
+            </div>
+            <button class="ahe-mini-play" type="button" data-ahe-toast="预告片已加入播放列表">▶ 播放</button>
+          </div>
+          <div class="ahe-float-card">
+            <div>
+              <b>98.2%</b>
+              <span>社区好评率</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="ahe-section" id="aheFocus">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>FOCUS · 本期焦点</small>被最多人反复观看的三支「啊啊啊不行了不要了」短片</h2>
+          <p class="ahe-section-desc">编辑部从近 30 天社区数据里挑出的高口碑作品，播放、点赞与收藏都在持续增长，是了解这个品牌最快的方式。</p>
+        </div>
+        <a class="ahe-link-more" href="#aheVideos">全部焦点内容 →</a>
+      </div>
+
+      <div class="ahe-focus-grid">
+        <article class="ahe-focus-main">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231a1f26'/%3E%3Cstop offset='1' stop-color='%232e3a24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23g1)'/%3E%3Crect x='0' y='330' width='800' height='120' fill='%23121518'/%3E%3Cg stroke='%23d4ff3f' stroke-width='3' opacity='0.75' fill='none'%3E%3Cpath d='M60 330 L60 250 L120 250'/%3E%3Cpath d='M740 330 L740 270 L690 270'/%3E%3C/g%3E%3Cg%3E%3Crect x='150' y='196' width='86' height='134' rx='8' fill='%23e9eef2' opacity='0.9'/%3E%3Crect x='168' y='216' width='50' height='10' rx='5' fill='%2322262e'/%3E%3Crect x='168' y='236' width='36' height='8' rx='4' fill='%238b949c'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='420' cy='196' r='28' fill='%23ffcf3f'/%3E%3Cpath d='M404 226 h32 l10 104 h-52 z' fill='%23ffcf3f' opacity='0.8'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='560' cy='212' r='24' fill='%23ff5d5d'/%3E%3Cpath d='M546 240 h28 l8 90 h-44 z' fill='%23ff5d5d' opacity='0.78'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='0.1'%3E%3Crect x='250' y='120' width='200' height='10' rx='5'/%3E%3Crect x='250' y='144' width='140' height='8' rx='4'/%3E%3C/g%3E%3Cg%3E%3Crect x='300' y='362' width='200' height='34' rx='17' fill='%23d4ff3f'/%3E%3Cpath d='M376 372l16 7-16 7z' fill='%23151515'/%3E%3Crect x='400' y='375' width='70' height='8' rx='4' fill='%23151515' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E" alt="短片《撑到最后一秒》封面，地铁站台与人影构成的临界时刻构图" width="800" height="450" loading="lazy">
+          <div class="ahe-focus-body">
+            <div><span class="ahe-tag ahe-tag-neon">品牌原创</span><span class="ahe-tag">情绪记录</span><span class="ahe-tag">都市生活</span></div>
+            <h3 class="ahe-h3" style="font-size:21px;margin:10px 0 8px;">撑到最后一秒：一个通宵加班的人，在地铁口说出那句话</h3>
+            <p>这支 8 分 42 秒的短片，用近乎纪录片的镜头跟拍一位普通职员从深夜办公室走到清晨地铁口。全片没有一句台词说出「啊啊啊不行了不要了」，但每个镜头都在说。上线 9 天，社区播放量突破 210 万，收藏数超过 4.6 万，是本季度口碑最高的企业自制内容。</p>
+            <div class="ahe-meta-row">
+              <span>导演：林徽因式沉默</span>
+              <span>播放 210.4 万</span>
+              <span>点赞 8.9 万</span>
+              <span>收藏 4.6 万</span>
+            </div>
+            <div class="ahe-hero-actions" style="margin-top:16px;">
+              <button class="ahe-btn ahe-btn-primary" type="button" data-ahe-toast="已开始播放《撑到最后一秒》">立即观看</button>
+              <button class="ahe-icon-btn" type="button" data-ahe-like>♥ 喜欢 <span>8.9万</span></button>
+              <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="ahe-focus-side">
+          <article class="ahe-side-item">
+            <span class="ahe-side-idx">01</span>
+            <div style="min-width:0;">
+              <h4>《甲方说再改一版》——三分钟讲完一次崩溃又重启</h4>
+              <p>以动画分镜还原提案日现场，节奏快、信息密度高，评论区大量从业者留言「太真实了」。品牌官方发布后，被 40 余个行业社群自发转发。</p>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;"><span class="ahe-tag">职场日常</span><span class="ahe-tag">动画短片</span></div>
+            </div>
+            <div class="ahe-side-thumb"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 124'%3E%3Crect width='184' height='124' fill='%23242b33'/%3E%3Crect x='22' y='30' width='80' height='58' rx='6' fill='%23e7edf2' opacity='0.9'/%3E%3Crect x='32' y='42' width='56' height='6' rx='3' fill='%23313a44'/%3E%3Crect x='32' y='56' width='40' height='5' rx='2.5' fill='%237c8792'/%3E%3Ccircle cx='138' cy='60' r='17' fill='%23ffcf3f'/%3E%3Cpath d='M132 52l12 8-12 8z' fill='%23151515' opacity='0.7'/%3E%3C/svg%3E" alt="动画短片《甲方说再改一版》封面，提案界面与黄色光点" width="184" height="124" loading="lazy"></div>
+          </article>
+          <article class="ahe-side-item">
+            <span class="ahe-side-idx">02</span>
+            <div style="min-width:0;">
+              <h4>《我妈的电话只响三秒》——关于陪伴的一次轻声追问</h4>
+              <p>创作者用一通未接来电串联母女两代人的日常，没有煽情配乐，只有厨房水声与窗外车流。评论区被「我也常常错过」刷屏。</p>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;"><span class="ahe-tag ahe-tag-hot">社区口碑第一</span><span class="ahe-tag">情感故事</span></div>
+            </div>
+            <div class="ahe-side-thumb"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 124'%3E%3Crect width='184' height='124' fill='%23302a26'/%3E%3Ccircle cx='62' cy='52' r='22' fill='%23ff8f8f' opacity='0.85'/%3E%3Ccircle cx='118' cy='76' r='16' fill='%23ffcf8a' opacity='0.7'/%3E%3Crect x='28' y='92' width='128' height='7' rx='3.5' fill='%23ffffff' opacity='0.18'/%3E%3Crect x='52' y='104' width='78' height='6' rx='3' fill='%23ffffff' opacity='0.1'/%3E%3C/svg%3E" alt="短片《我妈的电话只响三秒》封面，暖色圆光与家人意象" width="184" height="124" loading="lazy"></div>
+          </article>
+          <article class="ahe-side-item">
+            <span class="ahe-side-idx">03</span>
+            <div style="min-width:0;">
+              <h4>《跑到第七公里我就想放弃》——跑者的临界点实录</h4>
+              <p>全程手持跟拍一位业余跑者的半马训练，心率数据与喘息声同步呈现。深度测评式叙事，被评为「最不像广告的品牌内容」。</p>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;"><span class="ahe-tag">健康运动</span><span class="ahe-tag">实测记录</span></div>
+            </div>
+            <div class="ahe-side-thumb"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 124'%3E%3Crect width='184' height='124' fill='%231b2620'/%3E%3Cpath d='M0 96 Q60 74 110 92 T184 84 V124 H0 Z' fill='%232e3f33'/%3E%3Ccircle cx='84' cy='52' r='14' fill='%23d4ff3f'/%3E%3Cpath d='M72 68h24l8 28h-40z' fill='%23d4ff3f' opacity='0.6'/%3E%3Cg stroke='%23d4ff3f' stroke-width='2' opacity='0.45' fill='none'%3E%3Cpath d='M20 40h34M20 50h54'/%3E%3C/g%3E%3C/svg%3E" alt="短片《跑到第七公里我就想放弃》封面，跑者与绿色跑道线" width="184" height="124" loading="lazy"></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 视频精选（文字列表为主） -->
+  <section class="ahe-section" id="aheVideos" style="padding-top:18px;">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>VIDEO · 视频精选</small>本周值得完整看完的六支原创短片</h2>
+          <p class="ahe-section-desc">以文字索引方式呈现，方便你快速判断是否值得点开。每支短片都标注了题材标签、创作者与真实互动数据，不做虚假热度。</p>
+        </div>
+        <a class="ahe-link-more" href="#aheTopics">按专题浏览 →</a>
+      </div>
+
+      <div class="ahe-video-list">
+        <article class="ahe-video-row">
+          <div class="ahe-video-row-main">
+            <h4>《会议室里的一百种叹气》<span class="ahe-badge-new">NEW</span></h4>
+            <p>把十位不同职业者的叹气声采样成一条音轨，配合会议室长镜头，呈现「啊啊啊不行了不要了」最日常的形态。创作者用声音设计完成叙事，几乎不依赖画面冲突。</p>
+            <div class="ahe-video-row-dat"><span>创作者：声纹收集者</span><span>播放 86.2万</span><span>点赞 3.1万</span><span>收藏 1.4万</span><span class="ahe-tag">声音实验</span><span class="ahe-tag">职场日常</span></div>
+          </div>
+          <div class="ahe-video-row-act">
+            <button class="ahe-icon-btn" type="button" data-ahe-like>♥ <span>3.1万</span></button>
+            <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            <button class="ahe-icon-btn" type="button" data-ahe-copy="ahe-v1">复制链接</button>
+          </div>
+        </article>
+
+        <article class="ahe-video-row">
+          <div class="ahe-video-row-main">
+            <h4>《出租屋的第三年，我学会了给绿植浇水》</h4>
+            <p>生活记录类短片，讲述一个人在城市出租屋中重建秩序的过程。镜头在窗台、电饭煲、晾衣架之间缓慢移动，被用户称为「治愈影像里的清醒样本」。</p>
+            <div class="ahe-video-row-dat"><span>创作者：半格公寓</span><span>播放 64.7万</span><span>点赞 2.6万</span><span>收藏 1.9万</span><span class="ahe-tag">日常记录</span><span class="ahe-tag">治愈影像</span></div>
+          </div>
+          <div class="ahe-video-row-act">
+            <button class="ahe-icon-btn" type="button" data-ahe-like>♥ <span>2.6万</span></button>
+            <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            <button class="ahe-icon-btn" type="button" data-ahe-copy="ahe-v2">复制链接</button>
+          </div>
+        </article>
+
+        <article class="ahe-video-row">
+          <div class="ahe-video-row-main">
+            <h4>《崩溃前十分钟，我给自己泡了杯茶》</h4>
+            <p>一支 5 分钟的静物短片。画面只有水汽、杯沿和窗外光斑，旁白是创作者写给自己的信。品牌官方发布后进入「社区口碑榜」前三，评论区多长篇留言。</p>
+            <div class="ahe-video-row-dat"><span>创作者：慢速镜头</span><span>播放 122.5万</span><span>点赞 5.4万</span><span>收藏 3.7万</span><span class="ahe-tag ahe-tag-hot">口碑榜 TOP3</span><span class="ahe-tag">生活方式</span></div>
+          </div>
+          <div class="ahe-video-row-act">
+            <button class="ahe-icon-btn" type="button" data-ahe-like>♥ <span>5.4万</span></button>
+            <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            <button class="ahe-icon-btn" type="button" data-ahe-copy="ahe-v3">复制链接</button>
+          </div>
+        </article>
+
+        <article class="ahe-video-row">
+          <div class="ahe-video-row-main">
+            <h4>《凌晨四点的便利店店员说了一句话》</h4>
+            <p>城市探索题材，跟随夜班店员走过一整条街。短片后半段只保留环境音，让那句「你怎么了」自然落在画面里。被多家内容账号引用为「真实感标杆」。</p>
+            <div class="ahe-video-row-dat"><span>创作者：夜行地图</span><span>播放 98.1万</span><span>点赞 4.0万</span><span>收藏 2.2万</span><span class="ahe-tag">城市探索</span><span class="ahe-tag">人物访谈</span></div>
+          </div>
+          <div class="ahe-video-row-act">
+            <button class="ahe-icon-btn" type="button" data-ahe-like>♥ <span>4.0万</span></button>
+            <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            <button class="ahe-icon-btn" type="button" data-ahe-copy="ahe-v4">复制链接</button>
+          </div>
+        </article>
+
+        <article class="ahe-video-row">
+          <div class="ahe-video-row-main">
+            <h4>《我把三年加班记录做成了一支 MV》</h4>
+            <p>手作式剪辑：把打卡记录、外卖单、打车小票裁切成帧，配上自己写的词。创作者是程序员，短片上线后被大量二创，成为本季社区最具影响力的 UGC 作品之一。</p>
+            <div class="ahe-video-row-dat"><span>创作者：帧率之外</span><span>播放 143.8万</span><span>点赞 6.7万</span><span>收藏 4.1万</span><span class="ahe-tag">创作幕后</span><span class="ahe-tag">音乐现场</span></div>
+          </div>
+          <div class="ahe-video-row-act">
+            <button class="ahe-icon-btn" type="button" data-ahe-like>♥ <span>6.7万</span></button>
+            <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            <button class="ahe-icon-btn" type="button" data-ahe-copy="ahe-v5">复制链接</button>
+          </div>
+        </article>
+
+        <article class="ahe-video-row">
+          <div class="ahe-video-row-main">
+            <h4>《分手那天，我把客厅重新布置了一遍》</h4>
+            <p>家居收纳与情绪故事的交叉题材。全片以搬家式整理为主线，最后留下的那盏灯成为视觉落点。评论区大量用户分享自己的「重新开始」经验。</p>
+            <div class="ahe-video-row-dat"><span>创作者：挪动一厘米</span><span>播放 77.6万</span><span>点赞 2.9万</span><span>收藏 1.6万</span><span class="ahe-tag">家居收纳</span><span class="ahe-tag">情感故事</span></div>
+          </div>
+          <div class="ahe-video-row-act">
+            <button class="ahe-icon-btn" type="button" data-ahe-like>♥ <span>2.9万</span></button>
+            <button class="ahe-icon-btn" type="button" data-ahe-save>☆ 收藏</button>
+            <button class="ahe-icon-btn" type="button" data-ahe-copy="ahe-v6">复制链接</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="ahe-section" id="aheTopics" style="padding-top:20px;">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>SERIES · 专题企划</small>四个持续更新的原创企划，撑起「啊啊啊不行了不要了」的内容生态</h2>
+          <p class="ahe-section-desc">专题由品牌编辑部与社区创作者共同维护，每期围绕一个情绪切面展开，包含征集、拍摄、发布与复盘四个阶段，全流程公开。</p>
+        </div>
+        <a class="ahe-link-more" href="#aheAuthors">参与共创 →</a>
+      </div>
+
+      <div class="ahe-topic-grid">
+        <article class="ahe-topic-card">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 336'%3E%3Cdefs%3E%3ClinearGradient id='t1' x1='0' y1='0' x2='1' y2='0.6'%3E%3Cstop offset='0' stop-color='%231d2a24'/%3E%3Cstop offset='1' stop-color='%232a3a2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='336' fill='url(%23t1)'/%3E%3Cg opacity='0.85'%3E%3Crect x='56' y='120' width='120' height='160' rx='8' fill='%23394a3c'/%3E%3Crect x='82' y='150' width='68' height='8' rx='4' fill='%23d4ff3f' opacity='0.55'/%3E%3Crect x='82' y='170' width='44' height='7' rx='3.5' fill='%23ffffff' opacity='0.2'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='330' cy='150' r='38' fill='%23d4ff3f' opacity='0.9'/%3E%3Crect x='300' y='188' width='60' height='120' rx='26' fill='%23d4ff3f' opacity='0.35'/%3E%3C/g%3E%3Cg%3E%3Crect x='430' y='96' width='150' height='184' rx='10' fill='%23ffffff' opacity='0.08'/%3E%3Crect x='452' y='124' width='106' height='9' rx='4.5' fill='%23ffffff' opacity='0.35'/%3E%3Crect x='452' y='146' width='74' height='7' rx='3.5' fill='%23ffffff' opacity='0.2'/%3E%3Crect x='452' y='162' width='90' height='7' rx='3.5' fill='%23ffffff' opacity='0.14'/%3E%3Crect x='452' y='230' width='64' height='26' rx='13' fill='%23d4ff3f' opacity='0.8'/%3E%3C/g%3E%3C/svg%3E" alt="专题《临界时刻》视觉图，绿色调的都市空间与人物剪影" width="640" height="336" loading="lazy">
+          <div class="ahe-topic-body">
+            <span class="ahe-topic-status"><i></i>更新中 · 第 14 期已上线</span>
+            <h3 class="ahe-h3">临界时刻 Critical Moment</h3>
+            <p style="font-size:13.6px;color:var(--ahe-muted);margin:0;">品牌主打的年度企划，聚焦普通人在临界点上的一瞬。每期由一位签约导演主导，社区公开征集真实素材，入选者可获得片尾署名与创作扶持。</p>
+            <ul class="ahe-topic-list">
+              <li>Vol.14《撑到最后一秒》：通宵之后的地铁口</li>
+              <li>Vol.13《我数到一百就站起来》：楼梯间里的自我对话</li>
+              <li>Vol.12《冰箱灯亮着》：一个人的深夜厨房</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="ahe-topic-card">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 336'%3E%3Crect width='640' height='336' fill='%23261e2c'/%3E%3Cg%3E%3Ccircle cx='160' cy='168' r='62' fill='%23ff8fc7' opacity='0.35'/%3E%3Ccircle cx='248' cy='128' r='40' fill='%23d4ff3f' opacity='0.4'/%3E%3Ccircle cx='320' cy='196' r='54' fill='%23ffcf3f' opacity='0.3'/%3E%3Ccircle cx='430' cy='140' r='34' fill='%23ff5d5d' opacity='0.4'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-width='2' opacity='0.16' fill='none'%3E%3Cpath d='M120 268h400'/%3E%3Cpath d='M160 240v56M240 240v56M320 240v56M400 240v56'/%3E%3C/g%3E%3C/svg%3E" alt="专题《声音标本》视觉图，多色声音波形圆点组合" width="640" height="336" loading="lazy">
+          <div class="ahe-topic-body">
+            <span class="ahe-topic-status"><i></i>每月更新 · 已收录 46 个声音</span>
+            <h3 class="ahe-h3">声音标本 Sound Specimen</h3>
+            <p style="font-size:13.6px;color:var(--ahe-muted);margin:0;">把那些说不出口的叹气、咬牙、深呼吸做成可收藏的声音档案。用户可上传 15 秒环境音，由平台统一混录成月度合辑，是社区参与度最高的企划。</p>
+            <ul class="ahe-topic-list">
+              <li>十月合辑《加班楼层》：来自 12 座城市的夜声</li>
+              <li>九月合辑《早高峰》：地铁、雨声与鞋跟声</li>
+              <li>八月合辑《厨房晚安》：水声、抽油烟机与晚安</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="ahe-topic-card">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 336'%3E%3Crect width='640' height='336' fill='%2314181f'/%3E%3Cg%3E%3Crect x='80' y='96' width='200' height='150' rx='9' fill='%23ffffff' opacity='0.07'/%3E%3Crect x='104' y='124' width='150' height='10' rx='5' fill='%23d4ff3f' opacity='0.6'/%3E%3Crect x='104' y='148' width='110' height='8' rx='4' fill='%23ffffff' opacity='0.25'/%3E%3Crect x='104' y='166' width='130' height='8' rx='4' fill='%23ffffff' opacity='0.16'/%3E%3C/g%3E%3Cg%3E%3Crect x='340' y='130' width='220' height='100' rx='9' fill='%23ff5d5d' opacity='0.22'/%3E%3Ccircle cx='420' cy='180' r='18' fill='%23ff5d5d' opacity='0.7'/%3E%3Cpath d='M414 172l14 8-14 8z' fill='%23151515'/%3E%3Crect x='450' y='170' width='88' height='8' rx='4' fill='%23ffffff' opacity='0.35'/%3E%3Crect x='450' y='188' width='56' height='7' rx='3.5' fill='%23ffffff' opacity='0.2'/%3E%3C/g%3E%3C/svg%3E" alt="专题《下班之后》视觉图，工作界面与播放窗口的对比构图" width="640" height="336" loading="lazy">
+          <div class="ahe-topic-body">
+            <span class="ahe-topic-status"><i></i>征集中 · 截止 12 月 8 日</span>
+            <h3 class="ahe-h3">下班之后 After Work</h3>
+            <p style="font-size:13.6px;color:var(--ahe-muted);margin:0;">面向所有用户的主题征集：记录打卡之后的那十分钟。不限设备、不限技法，只要真实。入选作品将由品牌官方发布，并进入年度口碑榜评选池。</p>
+            <ul class="ahe-topic-list">
+              <li>投稿入口已开放，支持手机竖屏与相机横屏</li>
+              <li>入选 30 支作品将获得平台联合推广资源</li>
+              <li>优秀创作者可进入签约作者观察名单</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="ahe-topic-card">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 336'%3E%3Crect width='640' height='336' fill='%232a1f18'/%3E%3Cg%3E%3Crect x='0' y='230' width='640' height='106' fill='%231c150f'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='180' cy='196' r='40' fill='%23ffcf3f' opacity='0.75'/%3E%3Cpath d='M150 236h60l12 74h-84z' fill='%23ffcf3f' opacity='0.4'/%3E%3Ccircle cx='300' cy='180' r='34' fill='%23ff8f8f' opacity='0.7'/%3E%3Cpath d='M274 214h52l10 96h-72z' fill='%23ff8f8f' opacity='0.36'/%3E%3Ccircle cx='420' cy='204' r='30' fill='%23d4ff3f' opacity='0.7'/%3E%3Cpath d='M396 234h48l9 76h-66z' fill='%23d4ff3f' opacity='0.32'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='0.12'%3E%3Ccircle cx='520' cy='110' r='3'/%3E%3Ccircle cx='570' cy='150' r='2'/%3E%3Ccircle cx='90' cy='110' r='2.5'/%3E%3C/g%3E%3C/svg%3E" alt="专题《一百个人的崩溃与重启》视觉图，暖色调人群剪影" width="640" height="336" loading="lazy">
+          <div class="ahe-topic-body">
+            <span class="ahe-topic-status"><i></i>已完成 · 100 期全部上线</span>
+            <h3 class="ahe-h3">一百个人的崩溃与重启</h3>
+            <p style="font-size:13.6px;color:var(--ahe-muted);margin:0;">品牌历时一年完成的百人访谈计划。每期 6 分钟，只问三个问题：你最近一次说「不行了」是什么时候？你怎么走出来的？你想对当时的自己说什么？</p>
+            <ul class="ahe-topic-list">
+              <li>第 097 期：一位夜班护士的两次崩溃</li>
+              <li>第 098 期：三十五岁转行的产品经理</li>
+              <li>第 100 期：我们把镜头交给了观众自己</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="ahe-section" id="aheAuthors" style="padding-top:22px;">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>CREATORS · 创作者矩阵</small>六位长期共建「啊啊啊不行了不要了」内容生态的作者</h2>
+          <p class="ahe-section-desc">他们是导演、剪辑、声音设计、编剧与生活记录者。平台提供拍摄支持、发行资源与收益分成，作者保留作品署名与创作主导权。</p>
+        </div>
+        <a class="ahe-link-more" href="#aheJoin">申请成为创作者 →</a>
+      </div>
+
+      <div class="ahe-author-grid">
+        <article class="ahe-author-card">
+          <div class="ahe-avatar" style="background:linear-gradient(135deg,#d4ff3f,#8fd400);">
+            <svg viewBox="0 0 58 58" aria-hidden="true"><circle cx="29" cy="22" r="9" fill="#151515" opacity="0.75"/><path d="M13 52c2-11 8-16 16-16s14 5 16 16z" fill="#151515" opacity="0.55"/></svg>
+          </div>
+          <div class="ahe-author-body">
+            <h3 class="ahe-author-name">林徽因式沉默 <em>签约导演</em></h3>
+            <div class="ahe-author-fields">情绪纪录 · 长镜头叙事</div>
+            <div class="ahe-author-numbers"><span>作品 42</span><span>粉丝 38.6万</span></div>
+            <p class="ahe-author-desc">擅长用极少的台词完成情绪调动，主张「把摄影机放低一点，人就会真实一点」。代表作《撑到最后一秒》获年度精品内容奖，长期在社区开设拉片课。</p>
+          </div>
+        </article>
+
+        <article class="ahe-author-card">
+          <div class="ahe-avatar" style="background:linear-gradient(135deg,#ff5d5d,#ffcf3f);">
+            <svg viewBox="0 0 58 58" aria-hidden="true"><rect x="12" y="14" width="34" height="26" rx="4" fill="#151515" opacity="0.7"/><path d="M25 22l12 7-12 7z" fill="#fff" opacity="0.9"/><rect x="20" y="46" width="18" height="3" rx="1.5" fill="#151515" opacity="0.5"/></svg>
+          </div>
+          <div class="ahe-author-body">
+            <h3 class="ahe-author-name">声纹收集者 <em>声音设计</em></h3>
+            <div class="ahe-author-fields">声音采集 · 环境音创作</div>
+            <div class="ahe-author-numbers"><span>作品 67</span><span>粉丝 24.1万</span></div>
+            <p class="ahe-author-desc">把城市当作录音棚，收集叹气、脚步、雨声与电梯提示音。她认为声音比画面更诚实。目前主持品牌专题《声音标本》，每月与用户共同完成一支合辑。</p>
+          </div>
+        </article>
+
+        <article class="ahe-author-card">
+          <div class="ahe-avatar" style="background:linear-gradient(135deg,#6ec3ff,#3f6bff);">
+            <svg viewBox="0 0 58 58" aria-hidden="true"><path d="M14 44l10-26 10 16 10-24 10 34" stroke="#fff" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/></svg>
+          </div>
+          <div class="ahe-author-body">
+            <h3 class="ahe-author-name">帧率之外 <em>剪辑师</em></h3>
+            <div class="ahe-author-fields">节奏剪辑 · 视觉实验</div>
+            <div class="ahe-author-numbers"><span>作品 53</span><span>粉丝 31.7万</span></div>
+            <p class="ahe-author-desc">白天写代码，晚上剪片子，自称「用关键帧写日记的人」。擅长把枯燥素材重组出情绪曲线，作品《我把三年加班记录做成了一支 MV》播放量破百万。</p>
+          </div>
+        </article>
+
+        <article class="ahe-author-card">
+          <div class="ahe-avatar" style="background:linear-gradient(135deg,#ff9ad5,#c06bff);">
+            <svg viewBox="0 0 58 58" aria-hidden="true"><circle cx="29" cy="29" r="13" fill="none" stroke="#fff" stroke-width="3" opacity="0.9"/><circle cx="29" cy="29" r="4" fill="#fff" opacity="0.9"/><path d="M29 8v8M29 42v8M8 29h8M42 29h8" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.7"/></svg>
+          </div>
+          <div class="ahe-author-body">
+            <h3 class="ahe-author-name">慢速镜头 <em>品牌创作者</em></h3>
+            <div class="ahe-author-fields">静物影像 · 生活美学</div>
+            <div class="ahe-author-numbers"><span>作品 38</span><span>粉丝 42.3万</span></div>
+            <p class="ahe-author-desc">用一支定焦镜头拍完整个生活。她相信节奏慢下来，观众才愿意停留。代表作《崩溃前十分钟，我给自己泡了杯茶》进入社区口碑榜前三，被广泛引用。</p>
+          </div>
+        </article>
+
+        <article class="ahe-author-card">
+          <div class="ahe-avatar" style="background:linear-gradient(135deg,#54e0b0,#1e9e78);">
+            <svg viewBox="0 0 58 58" aria-hidden="true"><rect x="15" y="18" width="28" height="22" rx="3" fill="none" stroke="#fff" stroke-width="3" opacity="0.9"/><path d="M23 12v8M35 12v8M23 40v6M35 40v6M9 26h6M43 26h6M9 34h6M43 34h6" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity="0.65"/></svg>
+          </div>
+          <div class="ahe-author-body">
+            <h3 class="ahe-author-name">夜行地图 <em>城市记录者</em></h3>
+            <div class="ahe-author-fields">城市探索 · 人物访谈</div>
+            <div class="ahe-author-numbers"><span>作品 45</span><span>粉丝 27.9万</span></div>
+            <p class="ahe-author-desc">常年凌晨出门拍摄，熟悉每条街的灯什么时候关。他坚持与被访者一起待够两个小时再开机。代表作《凌晨四点的便利店店员说了一句话》口碑稳定靠前。</p>
+          </div>
+        </article>
+
+        <article class="ahe-author-card">
+          <div class="ahe-avatar" style="background:linear-gradient(135deg,#ffcf3f,#ff8a3f);">
+            <svg viewBox="0 0 58 58" aria-hidden="true"><path d="M16 16h26v14a13 13 0 0 1-26 0z" fill="#151515" opacity="0.65"/><path d="M29 44v6M20 50h18" stroke="#151515" stroke-width="3" stroke-linecap="round" opacity="0.55"/></svg>
+          </div>
+          <div class="ahe-author-body">
+            <h3 class="ahe-author-name">半格公寓 <em>生活记录者</em></h3>
+            <div class="ahe-author-fields">出租屋生活 · 日常记录</div>
+            <div class="ahe-author-numbers"><span>作品 71</span><span>粉丝 19.4万</span></div>
+            <p class="ahe-author-desc">在十二平米的出租屋里拍了三年视频。她关心电饭煲、晾衣架和窗台绿植，也关心人如何在狭小空间里保持体面。作品以真实、不修饰著称。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 社区口碑 / 评价 -->
+  <section class="ahe-section" id="aheReviews" style="padding-top:22px;">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>REVIEWS · 社区口碑</small>看得见的评价，构成「啊啊啊不行了不要了」最真实的口碑</h2>
+          <p class="ahe-section-desc">评分来自真实观看用户，不刷量、不删差评。我们更在意长评里那些具体的句子，因为它们说明内容真的被需要。</p>
+        </div>
+      </div>
+
+      <div class="ahe-comment-wrap">
+        <div class="ahe-comment-score">
+          <div class="ahe-score-big">4.8<small> / 5.0</small></div>
+          <div class="ahe-score-stars">★★★★★</div>
+          <div style="font-size:13px;color:var(--ahe-muted);">基于 12,846 条真实评价，近 30 天新增 1,203 条。</div>
+          <div class="ahe-score-bars">
+            <div class="ahe-score-bar"><span>内容真实</span><i style="--p:96%"></i><span>96%</span></div>
+            <div class="ahe-score-bar"><span>画质专业</span><i style="--p:93%"></i><span>93%</span></div>
+            <div class="ahe-score-bar"><span>情绪共鸣</span><i style="--p:98%"></i><span>98%</span></div>
+            <div class="ahe-score-bar"><span>社区氛围</span><i style="--p:91%"></i><span>91%</span></div>
+            <div class="ahe-score-bar"><span>更新稳定</span><i style="--p:89%"></i><span>89%</span></div>
+          </div>
+          <button class="ahe-btn ahe-btn-ghost" type="button" style="margin-top:18px;width:100%;justify-content:center;" data-ahe-open="aheFeedbackModal">写一条反馈</button>
+        </div>
+
+        <div class="ahe-comment-list">
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#d4ff3f;">周</span>
+              <span class="ahe-comment-name">周小满</span>
+              <span class="ahe-comment-time">11 月 20 日</span>
+            </div>
+            <p class="ahe-comment-text">《撑到最后一秒》我看了四遍。第三遍开始注意镜头，发现地铁口那段其实只用了两个机位，但情绪完全撑住了。<q>这才是我理解的专业。</q>希望品牌继续保持这种克制。</p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#ffcf3f;">阿</span>
+              <span class="ahe-comment-name">阿波罗没有车</span>
+              <span class="ahe-comment-time">11 月 19 日</span>
+            </div>
+            <p class="ahe-comment-text">冲着「啊啊啊不行了不要了」这个名字来的，以为是搞笑内容，结果看完哭了一场。平台的整体调性比想象中沉稳，评论区也很友好，没有互相嘲讽，很难得。</p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#6ec3ff;">肆</span>
+              <span class="ahe-comment-name">肆月不吃香菜</span>
+              <span class="ahe-comment-time">11 月 18 日</span>
+            </div>
+            <p class="ahe-comment-text">声音专题是真的惊喜。我把《加班楼层》放着当工作背景音，居然集中了不少。<q>声音标本这种企划，别的平台很少做。</q></p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#ff8fc7;">M</span>
+              <span class="ahe-comment-name">Mia在搬砖</span>
+              <span class="ahe-comment-time">11 月 17 日</span>
+            </div>
+            <p class="ahe-comment-text">作为从业者说一句，这里的短片时长普遍偏长，但对内容有信心，没有硬塞广告。希望之后能有更多幕后解析，剪辑思路那部分我想看更细。</p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#54e0b0;">老</span>
+              <span class="ahe-comment-name">老周拍素材</span>
+              <span class="ahe-comment-time">11 月 16 日</span>
+            </div>
+            <p class="ahe-comment-text">投稿过一次，虽然没入选，但收到了很具体的修改建议，不是模板回复。这一点让人愿意再来。<q>值得信赖</q>四个字，是靠这种细节堆出来的。</p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#c06bff;">一</span>
+              <span class="ahe-comment-name">一厘米先生</span>
+              <span class="ahe-comment-time">11 月 14 日</span>
+            </div>
+            <p class="ahe-comment-text">唯一想提的意见是希望专题页能加收藏，方便回头找。其他都好，画质清晰，加载也快，手机上看着不累。</p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#ff8a3f;">骆</span>
+              <span class="ahe-comment-name">骆骆在路上</span>
+              <span class="ahe-comment-time">11 月 13 日</span>
+            </div>
+            <p class="ahe-comment-text">《跑到第七公里我就想放弃》让我重新开始跑步。它没有喊口号，就是老老实实展示一个人怎么撑过去。<q>这种真实比任何激励都有效。</q></p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#ff5d5d;">阿</span>
+              <span class="ahe-comment-name">阿枝的猫</span>
+              <span class="ahe-comment-time">11 月 12 日</span>
+            </div>
+            <p class="ahe-comment-text">关注半年，感觉更新节奏很稳，每周都有新东西，不会有那种突然断更的失落感。喜欢这种持续运营的态度。</p>
+          </article>
+
+          <article class="ahe-comment">
+            <div class="ahe-comment-top">
+              <span class="ahe-comment-ava" style="background:#8fd400;">白</span>
+              <span class="ahe-comment-name">白露为霜</span>
+              <span class="ahe-comment-time">11 月 10 日</span>
+            </div>
+            <p class="ahe-comment-text">家里人不太理解我为什么喜欢看「讲崩溃」的内容，我给他们放了《我妈的电话只响三秒》，他们沉默了。好的内容不需要解释，它自己会说话。</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 深度解析长文 -->
+  <section class="ahe-section" id="aheEssay" style="padding-top:22px;">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>BRAND · 深度解析</small>为什么「啊啊啊不行了不要了」能成为一个被持续讨论的视频品牌</h2>
+          <p class="ahe-section-desc">这是一份写给新观众的说明：我们如何理解这个词、如何选择题材、如何与创作者共同建立内容标准。</p>
+        </div>
+      </div>
+
+      <div class="ahe-essay">
+        <p class="ahe-essay-lead">「啊啊啊不行了不要了」不是一句抱怨，而是一个人真实抵达极限时的语气。我们把这句口语当成品牌名，是因为它足够诚实——它不美化崩溃，也不消费崩溃，它承认人会有撑不住的那一刻。作为官方网站，我们想做的不是替观众喊出来，而是把这一刻记录下来，让它在被看见之后，变成继续向前的一点力量。</p>
+
+        <h3 class="ahe-h3">一、词的来历：一句脱口而出，为什么值得做成内容</h3>
+        <p>这个词最初出现在品牌创始团队的一次内部讨论中。剪辑师连续改片十四个小时，摘下耳机说出这句话，会议室里所有人都笑了，因为大家都有过同样的瞬间。团队随后做了一次小范围征集，两周内收到六百多条留言：有人说是在医院走廊，有人说是在孩子的家长会前，有人说是在工位下偷偷蹲下去的那十秒。这些回答的共同点是具体——不是宏大的痛苦，而是生活中某个可以指认的时刻。于是品牌决定把这个词作为主线，持续拍摄这类「可指认的瞬间」。关键词解析在这里不是文字游戏，而是内容方法：先找到具体情境，再谈情绪，最后才谈表达。我们要求每支短片至少有一个可以被观众准确复述的细节，比如地铁进站的风、便利店关东煮的热气、键盘上被磨掉的字母。</p>
+        <p>从行业角度看，情绪类视频很容易滑向两个极端：要么过分煽情，用配乐和慢镜头强行拔高；要么过分轻佻，把痛苦做成段子。品牌在最初的内容规范里就写明了三条底线：不使用未经同意的真实困境素材、不设计「必须哭」的情节、不在结尾强行升华。这三条看起来限制了创作，实际上反而让创作者把力气花在观察上。两年多下来，社区里形成了一个共识：一支片子好不好，先看它敢不敢停顿，再看它有没有替观众下结论。</p>
+
+        <h3 class="ahe-h3">二、内容生态：从一支短片到一套可持续的创作机制</h3>
+        <p>很多人第一次来会以为这里只是一个短片合集，其实背后是一套环环相扣的内容生态。品牌目前运行四条稳定产线：年度主企划《临界时刻》由签约导演主导，强调影像品质；月度声音企划《声音标本》完全向社区开放，强调参与感；主题征集《下班之后》每季一轮，强调发现新人；百人访谈《一百个人的崩溃与重启》则承担深度内容与社会责任的部分。四条线在节奏上互相补位，保证平台每周都有新内容，同时避免同质化。</p>
+        <p>创作者机制上，品牌坚持「作者署名优先」。签约不等于买断，创作者保留作品署名权和二次剪辑权；平台负责拍摄资源、发行渠道与合规审核，并按播放与收藏数据结算分成。对刚起步的创作者，平台提供一次免费的粗剪反馈和一次调色指导，这两项在社区里被反复提到，是很多新人愿意留下的原因。对企业客户，品牌提供定制内容服务，但有一条硬性规定：定制片必须标注合作属性，不得伪装成社区自然内容。这条规定让部分商业机会流失，却换来了用户对「官方发布」标签的信任。</p>
+        <div class="ahe-essay-grid">
+          <div>选题会每两周一次，所有创作者可提案</div>
+          <div>粗剪反馈 48 小时内返回，附具体时间码</div>
+          <div>成片需通过事实、隐私与版权三重审核</div>
+          <div>发布后 7 天复盘，数据与评论一并归档</div>
+          <div>季度评选精品内容，进入年度口碑榜</div>
+          <div>年度发布内容生态白皮书，公开运营数据</div>
+        </div>
+        <p>这套机制的另一面是克制。品牌不追求日更，也不做夸张的标题党。我们更愿意花三个月做一支能被反复观看的片子，而不是三个月做九十支只能刷过一次的片段。社区用户显然能分辨其中的差别：收藏率长期高于点赞率的作品，往往正是那些节奏偏慢、信息密度高的短片。数据团队把这个现象称为「二次观看信号」，它已经成为内部评估内容品质的重要依据，也是我们判断是否继续投入某个专题的核心指标之一。</p>
+
+        <h3 class="ahe-h3">三、观看方式：用户如何在这家官网上找到自己的那一支</h3>
+        <p>官网的结构围绕「快速判断」设计。焦点区放三支不同气质的代表作，帮助新观众在一分钟内建立印象；视频精选采用文字列表而不是满屏封面，是因为我们发现很多用户会在通勤时用低流量浏览，文字摘要比图片更有效；专题区按企划组织，适合愿意连续观看的深度用户；创作者矩阵提供作者档案，方便观众跟随某位导演或剪辑师；社区口碑区保留长评与批评意见，让人看到真实反馈。每个板块都会自然出现品牌关键词，但我们刻意避免把关键词塞进每一句话，那样只会让阅读变得疲惫。</p>
+        <p>对于想参与的用户，路径同样清晰：投稿入口在公告条、首屏和页面底部三处出现，表单只要求填写主题、时长与素材链接，降低第一道门槛；通过初审后会收到一封包含修改建议的邮件；入选作品由官方账号发布，创作者获得署名与分成。品牌还为社区提供了创作灵感板块，定期整理脚本结构、标题写法与剪辑节奏建议，这些内容不设权限，任何人都可以取用。我们相信，一个视频品牌真正的护城河不是独家片源，而是让更多人愿意在这里认真做内容。</p>
+        <p>最后想说的是，「啊啊啊不行了不要了」这个名字听起来有些激烈，但页面上所有内容的落点都是温和的。我们拍崩溃，是为了让崩溃被正常看待；我们记录重启，是为了让重启显得不那么孤单。这是品牌的初心，也是官方网站持续运营的方向。未来一年，平台计划把专题拍摄扩展到更多城市，增加线下放映与创作者见面会，并继续完善投稿反馈机制。如果你也有一段想被看见的十分钟，欢迎把它交给我们。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 动态 / 合作 / FAQ -->
+  <section class="ahe-section" id="aheFaq" style="padding-top:20px;">
+    <div class="ahe-wrap">
+      <div class="ahe-section-head">
+        <div>
+          <h2 class="ahe-h2"><small>SUPPORT · 动态与帮助</small>企业动态、合作伙伴与常见问题</h2>
+          <p class="ahe-section-desc">品牌保持信息公开，重要更新会同步在公告条与本节；合作与投稿相关问题可在下方找到答案。</p>
+        </div>
+      </div>
+
+      <div class="ahe-split">
+        <div>
+          <h3 class="ahe-h3" style="margin-bottom:12px;">企业动态 · 官方发布</h3>
+          <div class="ahe-news">
+            <div class="ahe-news-item"><time>11-21</time><span>品牌官方发布 2026 年度内容生态白皮书，公开创作者分成结构与专题运营数据。</span></div>
+            <div class="ahe-news-item"><time>11-18</time><span>《临界时刻》Vol.14 上线，首周进入社区热度榜第一，收藏率创新高。</span></div>
+            <div class="ahe-news-item"><time>11-12</time><span>创作者扶持计划新增 30 个名额，面向二三线城市开放申请，报名截止 12 月 15 日。</span></div>
+            <div class="ahe-news-item"><time>11-05</time><span>平台完成播放器与无障碍字幕升级，全部精品内容支持高清与字幕切换。</span></div>
+            <div class="ahe-news-item"><time>10-28</time><span>品牌与四家独立影像机构达成合作，共同发起城市影像共创计划。</span></div>
+          </div>
+
+          <h3 class="ahe-h3" style="margin:26px 0 12px;">合作品牌 · 共创伙伴</h3>
+          <div class="ahe-partners">
+            <div class="ahe-partner"><em style="background:#d4ff3f;">光</em>光合放映室</div>
+            <div class="ahe-partner"><em style="background:#ffcf3f;">慢</em>慢速器材</div>
+            <div class="ahe-partner"><em style="background:#6ec3ff;">城</em>城市声音档案馆</div>
+            <div class="ahe-partner"><em style="background:#ff8fc7;">纸</em>纸间独立出版</div>
+          </div>
+
+          <div class="ahe-cta" style="margin-top:26px;flex-direction:column;align-items:flex-start;">
+            <div>
+              <h3>有故事想拍出来？</h3>
+              <p>无论你是第一次拿起相机，还是已经拍了十年，我们都愿意看完你的素材。投稿通道长期开放，本期主题「下班之后的十分钟」。</p>
+            </div>
+            <div class="ahe-hero-actions">
+              <button class="ahe-btn ahe-btn-primary" type="button" data-ahe-open="aheJoinModal">立即投稿</button>
+              <button class="ahe-btn ahe-btn-ghost" type="button" data-ahe-open="aheFeedbackModal">联系品牌</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="ahe-h3" style="margin-bottom:12px;">常见问题 · FAQ</h3>
+          <div class="ahe-faq">
+            <details open>
+              <summary>「啊啊啊不行了不要了」是一个怎样的视频品牌？</summary>
+              <p>它是一家专注情绪表达与都市生活影像的原创视频企业，官方网站提供短片观看、专题企划、创作者档案与投稿入口。平台以真实、专业、高清为内容标准，持续运营多年，已形成稳定的社区与作者生态。</p>
+            </details>
+            <details>
+              <summary>投稿有什么题材和时长要求？</summary>
+              <p>题材围绕日常生活、职场、情感与城市观察即可，时长建议 1 到 15 分钟。手机竖屏与相机横屏都接受，画质尽量清晰。我们更看重是否有具体细节，而不是设备参数。</p>
+            </details>
+            <details>
+              <summary>作品入选后如何署名与分成？</summary>
+              <p>创作者保留作品署名权，平台在官方账号发布时会标注作者与创作团队。分成按播放与收藏数据结算，具体比例在入选通知中说明，全部规则公开可查，属于行业领先的透明机制。</p>
+            </details>
+            <details>
+              <summary>如何成为签约创作者？</summary>
+              <p>先在社区投稿两到三支作品，编辑团队会主动联系表现稳定的作者。也可以直接通过底部联系入口提交作品集。签约后平台提供拍摄支持、发行资源与定期培训。</p>
+            </details>
+            <details>
+              <summary>观看内容需要付费吗？</summary>
+              <p>官网展示的短片均可免费观看，部分高清版本与完整版专题可能面向注册用户开放。我们坚持精品内容不以付费墙为第一优先级，用户至上是品牌的长期原则。</p>
+            </details>
+            <details>
+              <summary>专题企划的征集周期是多久？</summary>
+              <p>《下班之后》每季一轮，单轮征集约三周，评审与制作约四周。声音企划每月一轮，周期较短。具体时间以公告条和专题页更新为准。</p>
+            </details>
+            <details>
+              <summary>可以转载平台内容吗？</summary>
+              <p>欢迎转载，但需保留作者署名与平台标识，并不得用于商业用途。如需商业授权，请通过联系入口提交用途说明，我们会在三个工作日内回复。</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ahe-footer">
+  <div class="ahe-wrap">
+    <div class="ahe-footer-grid">
+      <div class="ahe-footer-brand">
+        <b>啊啊啊不行了不要了</b>
+        <p>一家深耕情绪影像的原创视频品牌，官方网站持续更新精品内容、专题企划与创作者动态，致力于构建真实、温暖、值得信赖的内容生态。</p>
+        <p style="margin-top:10px;font-size:12.5px;">合作与投稿：brand@ahe-studio.example<br>商务与授权：license@ahe-studio.example</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#aheVideos">视频精选</a></li>
+          <li><a href="#aheTopics">专题企划</a></li>
+          <li><a href="#aheEssay">品牌解析</a></li>
+          <li><a href="#aheReviews">社区口碑</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>创作者</h4>
+        <ul>
+          <li><a href="#aheAuthors">作者矩阵</a></li>
+          <li><a href="#aheJoin" data-ahe-open="aheJoinModal">投稿入口</a></li>
+          <li><a href="#aheFaq">常见问题</a></li>
+          <li><a href="#aheHero">回到首屏</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#aheFaq">企业动态</a></li>
+          <li><a href="#aheFaq">合作品牌</a></li>
+          <li><a href="#aheFeedback" data-ahe-open="aheFeedbackModal">意见反馈</a></li>
+          <li><a href="#aheTop">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ahe-footer-bottom">
+      <span>啊啊啊不行了不要了官方网站 | 版权所有 | 持续运营中</span>
+      <span>品牌备案号 AHE-2026-1108 | 内容合规编号 CN-VID-0421 | 官方发布</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 投稿弹窗 -->
+<div class="ahe-modal" id="aheJoinModal" role="dialog" aria-modal="true" aria-labelledby="aheJoinTitle">
+  <div class="ahe-modal-box">
+    <h3 id="aheJoinTitle">作品投稿</h3>
+    <p class="ahe-modal-sub">填写基本信息即可提交，编辑团队将在 5 个工作日内回复初审意见。</p>
+    <div class="ahe-field"><label for="aheJoinName">作者昵称</label><input id="aheJoinName" type="text" placeholder="你希望被怎样称呼"></div>
+    <div class="ahe-field"><label for="aheJoinTopic">作品主题</label><input id="aheJoinTopic" type="text" placeholder="例如：下班之后的十分钟"></div>
+    <div class="ahe-field"><label for="aheJoinNote">一句话介绍</label><textarea id="aheJoinNote" placeholder="讲讲这支片子拍了谁、拍了什么，以及你最想保留的那个细节"></textarea></div>
+    <div class="ahe-modal-actions">
+      <button class="ahe-btn ahe-btn-primary" type="button" data-ahe-submit="投稿已提交，编辑团队将尽快联系你">提交投稿</button>
+      <button class="ahe-btn ahe-btn-ghost" type="button" data-ahe-close>取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- 反馈弹窗 -->
+<div class="ahe-modal" id="aheFeedbackModal" role="dialog" aria-modal="true" aria-labelledby="aheFbTitle">
+  <div class="ahe-modal-box">
+    <h3 id="aheFbTitle">意见反馈</h3>
+    <p class="ahe-modal-sub">无论表扬还是批评，我们都会认真读完。</p>
+    <div class="ahe-field"><label for="aheFbType">反馈类型</label>
+      <select id="aheFbType">
+        <option>内容建议</option>
+        <option>播放问题</option>
+        <option>合作咨询</option>
+        <option>版权与举报</option>
+      </select>
+    </div>
+    <div class="ahe-field"><label for="aheFbText">具体说明</label><textarea id="aheFbText" placeholder="请描述你遇到的问题或建议"></textarea></div>
+    <div class="ahe-modal-actions">
+      <button class="ahe-btn ahe-btn-primary" type="button" data-ahe-submit="反馈已收到，感谢你的认真">提交反馈</button>
+      <button class="ahe-btn ahe-btn-ghost" type="button" data-ahe-close>关闭</button>
+    </div>
+  </div>
+</div>
+
+<div class="ahe-toast" id="aheToast" role="status" aria-live="polite"></div>
+
+<button class="ahe-totop" id="aheToTop" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"/><path d="M6 12l6-6 6 6"/></svg>
+</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = document.getElementById('aheBurger');
+  var nav = document.getElementById('aheNav');
+  if (burger && nav){
+    burger.addEventListener('click', function(){
+      var on = nav.classList.toggle('on');
+      burger.classList.toggle('on', on);
+      burger.setAttribute('aria-expanded', on ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A'){
+        nav.classList.remove('on');
+        burger.classList.remove('on');
+        burger.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var sInput = document.getElementById('aheSearchInput');
+  var sBtn = document.getElementById('aheSearchBtn');
+  var sTip = document.getElementById('aheSearchTip');
+  var hintPool = [
+    '《撑到最后一秒》· 品牌原创短片',
+    '《崩溃前十分钟，我给自己泡了杯茶》· 口碑榜 TOP3',
+    '《会议室里的一百种叹气》· 声音实验',
+    '《加班楼层》· 声音标本十月合辑',
+    '《下班之后》· 主题征集进行中',
+    '创作者：林徽因式沉默 · 签约导演'
+  ];
+
+  function runSearch(){
+    var q = (sInput.value || '').trim();
+    if (!q){ sTip.innerHTML = '试试搜索：<b>临界时刻</b>、<b>声音标本</b>、<b>下班之后</b>'; sTip.classList.add('on'); return; }
+    var hit = hintPool.filter(function(t){ return t.indexOf(q) > -1; });
+    if (!hit.length){ hit = hintPool.slice(0, 3); sTip.innerHTML = '未找到与「' + esc(q) + '」完全匹配的内容，为你推荐：<br><b>' + hit.join('</b><br><b>') + '</b>'; }
+    else { sTip.innerHTML = '找到 ' + hit.length + ' 条相关内容：<br><b>' + hit.join('</b><br><b>') + '</b>'; }
+    sTip.classList.add('on');
+  }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]; }); }
+
+  if (sBtn && sInput && sTip){
+    sBtn.addEventListener('click', runSearch);
+    sInput.addEventListener('input', function(){ if (!sInput.value.trim()) { sTip.classList.remove('on'); } });
+    sInput.addEventListener('keydown', function(e){ if (e.key === 'Enter') { e.preventDefault(); runSearch(); } });
+    document.addEventListener('click', function(e){
+      if (!e.target.closest('#aheSearchBox')) sTip.classList.remove('on');
+    });
+  }
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById('aheToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('on'); }, 2400);
+  }
+
+  /* ---------- 点赞 ---------- */
+  document.querySelectorAll('[data-ahe-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var span = btn.querySelector('span');
+      var num = 0;
+      if (span) num = parseFloat(span.textContent.replace(/[^\d.]/g,'')) || 0;
+      var liked = btn.classList.toggle('liked');
+      if (span){
+        var base = num || 0;
+        var unit = span.textContent.indexOf('万') > -1 ? '万' : '';
+        var next = liked ? base + 0.1 : Math.max(0, base - 0.1);
+        span.textContent = (unit === '万' ? next.toFixed(1) + '万' : Math.round(next));
+      }
+      showToast(liked ? '已点赞，感谢你的认可' : '已取消点赞');
+    });
+  });
+
+  /* ---------- 收藏 ---------- */
+  document.querySelectorAll('[data-ahe-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('saved');
+      btn.textContent = saved ? '♥ 已收藏' : '☆ 收藏';
+      showToast(saved ? '已加入收藏夹，可在个人中心查看' : '已取消收藏');
+    });
+  });
+
+  /* ---------- 复制链接 ---------- */
+  document.querySelectorAll('[data-ahe-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var txt = '啊啊啊不行了不要了 · 视频精选 ' + btn.getAttribute('data-ahe-copy');
+      function fallback(){
+        var ta = document.createElement('textarea');
+        ta.value = txt;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); showToast('链接已复制，欢迎分享'); }
+        catch(e){ showToast('复制失败，请手动分享'); }
+        document.body.removeChild(ta);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(txt).then(function(){ showToast('链接已复制，欢迎分享'); }).catch(fallback);
+      } else { fallback(); }
+    });
+  });
+
+  /* ---------- 弹窗 ---------- */
+  function openModal(id){
+    var m = document.getElementById(id);
+    if (!m) return;
+    m.classList.add('on');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(m){
+    if (m) m.classList.remove('on');
+    document.body.style.overflow = '';
+  }
+  document.querySelectorAll('[data-ahe-open]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal(el.getAttribute('data-ahe-open'));
+    });
+  });
+  document.querySelectorAll('[data-ahe-close]').forEach(function(b){
+    b.addEventListener('click', function(){ closeModal(b.closest('.ahe-modal')); });
+  });
+  document.querySelectorAll('.ahe-modal').forEach(function(m){
+    m.addEventListener('click', function(e){ if (e.target === m) closeModal(m); });
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape'){
+      document.querySelectorAll('.ahe-modal.on').forEach(closeModal);
+    }
+  });
+  document.querySelectorAll('[data-ahe-submit]').forEach(function(b){
+    b.addEventListener('click', function(){
+      closeModal(b.closest('.ahe-modal'));
+      showToast(b.getAttribute('data-ahe-submit'));
+      var box = b.closest('.ahe-modal');
+      if (box) box.querySelectorAll('input,textarea').forEach(function(f){ f.value = ''; });
+    });
+  });
+
+  /* ---------- 播放与提示 ---------- */
+  document.querySelectorAll('[data-ahe-toast]').forEach(function(el){
+    el.addEventListener('click', function(){ showToast(el.getAttribute('data-ahe-toast')); });
+  });
+
+  /* ---------- 数字滚动 ---------- */
+  var counters = document.querySelectorAll('[data-ahe-count]');
+  var counted = false;
+  function runCount(){
+    if (counted) return;
+    counted = true;
+    counters.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-ahe-count'), 10) || 0;
+      var start = null;
+      var dur = 1100;
+      function step(ts){
+        if (!start) start = ts;
+        var p = Math.min((ts - start) / dur, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(target * eased).toLocaleString('en-US');
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if (counters.length){
+    if ('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if (en.isIntersecting){ runCount(); io.disconnect(); } });
+      }, { threshold: 0.3 });
+      io.observe(counters[0]);
+    } else { runCount(); }
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  var toTop = document.getElementById('aheToTop');
+  if (toTop){
+    window.addEventListener('scroll', function(){
+      if (window.pageYOffset > 520) toTop.classList.add('on');
+      else toTop.classList.remove('on');
+    }, { passive: true });
+    toTop.addEventListener('click', function(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+})();
+</script>
+</body>
+    </html>
